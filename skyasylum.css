@@ -1,0 +1,349 @@
+
+
+body {
+	font-family: Lucida Grande, sans-serif;
+	color: #eeeef7;
+	background-color: #000;
+	text-align: center;
+}
+
+#container {
+	margin: 0 auto;
+	width: 800px;
+	text-align: left;
+}
+
+a {
+	color: #000066;
+}
+
+a:hover {
+	color: #fff;
+}
+
+a img {
+	border: none;
+}
+
+
+/*-------------------------------------------
+HEADER
+---------------------------------------------*/
+#header h1 {
+	font: 600% "Lucida Grande", "Trebuchet MS", Verdana, sans-serif;
+	text-align: center;
+}
+
+#header {
+	height: 250px;
+	padding-top: 20px;
+}
+
+#logo {
+	height: 300px;
+	width: 500px;
+	float: left;
+}
+
+#logo img#bird {
+	height: 200px;
+
+}
+
+#logo img#sa {
+	height: 200px;
+	margin-left: 70px;
+}
+
+#quote {
+	width: 200px;
+	float: left;
+	margin: 60px 50px;
+}
+
+#quote p {
+	font: 125% "Lucida Grande", "Trebuchet MS", Verdana, sans-serif;
+	font-style: italic;
+	text-align: center;
+}
+
+#quote span#author {
+	font-size: 150%;
+	font-style: normal;
+	float: right;
+}
+
+/*-------------------------------------------
+WRAPPER
+---------------------------------------------*/
+
+
+/*-------------------------------------------
+NAV
+---------------------------------------------*/
+#nav {
+	height: 50px;
+	text-decoration: none;
+	padding: 20px 0px 5px 0px;
+	margin: 0 auto;
+}
+
+#nav ul li {
+	list-style: none;
+	display: inline;
+	margin: 0 30px;
+	padding-bottom: 10px;
+	font-size: 15px;
+}
+
+#nav ul li.current {
+	font-style: italic;
+	font-weight: bold;
+	border-bottom: 2px solid #888;
+}
+
+#nav ul li a {
+	text-decoration: none;
+	color: #fff;
+}
+
+#nav ul li a:hover {
+	color: #666;
+}
+
+
+/*-------------------------------------------
+SIDEBAR
+---------------------------------------------*/
+#sidebar {
+		visibility: hidden;
+}
+
+
+/*-------------------------------------------
+MAIN
+---------------------------------------------*/
+#main {
+	width: 100%;
+	color:  #000066;
+	padding: 0px 0 0px 11px;
+	margin: 10px;
+	background-color: white;
+}
+
+#main h1 {
+	margin: 0px;
+	padding: 20px 0 0 8px;
+	text-align: center;
+}
+
+#main p, table {
+	margin: 0 0 0 -11px;
+	padding: 0 18px 0.5em 20px;
+	border-width: 0 1px;
+	background: #fff;
+}
+
+#main table {
+	margin: 20px;
+	padding: 10px;
+}
+
+#main div.more {
+	margin: 0 0 0 -11px;
+	padding-left: 15px;
+}
+
+#main p.more {
+	display: block;
+	text-align: right;
+	padding: 0 10px 10px 0;
+	color: white;
+}
+
+#main table {
+	background: white;
+	color: #111;
+	border: 5px solid gray;
+}
+
+#main th {
+	border-bottom: 1px dotted #222;
+}
+#main td {
+	border-right: 1px dotted #222;
+	padding: 10px;
+}
+
+
+/*-------------------------------------------
+PRODUCTION
+---------------------------------------------*/
+
+#movie {
+	float: left;
+	padding: 20px 0 10px 5px;
+	
+}
+
+#movie_description {
+	width: 300px;
+	display: block;
+	float: left;
+	padding: 0px 10px 5px 20px;
+}
+
+#container1 {
+	margin: auto;
+	clear: both;
+	width: 400px;
+	height: 140px;
+	overflow: hidden;
+	position: relative;
+}
+
+#container a {
+	font-size: 0.8em;
+}
+
+#slider { 
+	position: absolute;
+	margin: auto;
+	width: 800px;
+	height: 100px;
+}
+
+.thumbnails { 
+	position: relative;
+	margin: 0;
+	width: 400px;
+	height: 100px;
+	float: left;
+	overflow: auto;
+	display: inline;
+}
+
+.thumbnail {
+	float: left;
+}
+
+.thumb {
+	padding: 5px 10px;
+}
+
+.caption {
+	visibility: hidden;
+	font-size: 0.5em;
+	text-align: center;
+	clear: both;
+}
+
+.show-me {
+	visibility: visible;
+}
+a.shiftleft:hover, a.shiftright:hover { color: #000066;}
+
+a.shiftleft {
+	margin-left: 300px;
+}
+
+#circles {
+	margin: auto;
+}
+#circles.left {
+	width: 33px;
+	height: 13px;
+	background: white url(pics/circles.png) 0px 0px no-repeat;
+	background-position: 0 -14px;
+	overflow: hidden;
+}
+
+#circles.right {
+	width: 33px;
+	height: 14px;
+	background: white url(pics/circles.png) 0px 0px no-repeat;
+	background-position: 0 -1px;
+	overflow: hidden;
+}
+
+/*-------------------------------------------
+ABOUT_US
+---------------------------------------------*/
+#pics {
+
+}
+
+#pics a {
+	font: 75% "Lucida Grande", "Trebuchet MS", Verdana, sans-serif;
+	float: right;
+	padding-right: 20px;
+}
+
+#pics a:hover {
+	color: #222;
+}
+
+#glenn, #mara,#andrew,#eric {
+	width: 700px;
+	padding: 20px;
+}
+
+.inmate {
+
+}
+
+.headshot {
+	border: 1px dotted gray;
+	padding: 5px;
+	background-color: white;
+	float: right;
+	margin: 2px 10px;
+}
+
+.headshot img {
+	height: 150px;
+	width: 150px;
+}
+
+.separator {
+	border-bottom: 2px solid gray;
+	width: 30%;
+	margin-left: 200px;
+}
+
+.info ul li {
+	list-style: none;
+	font-size: 0.8em;
+}
+
+.list-first {
+	float: left;
+	padding-right: 60px;
+	border: 1px solid red;
+}
+
+.list-second {
+	border: 1px solid green;
+}
+
+
+/*-------------------------------------------
+footer
+---------------------------------------------*/
+
+#footer {
+		height: 50px;
+		clear: both;
+		margin-top: 40px;
+}
+
+#footer a {
+	text-decoration: none;
+	color: #fff;
+}
+
+#footer p {
+	font: 50% "Lucida Grande", "Trebuchet MS", Verdana, sans-serif;
+	color: #888;
+	text-align: center;
+}

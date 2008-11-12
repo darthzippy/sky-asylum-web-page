@@ -1,0 +1,367 @@
+
+
+body {
+	font-family: Lucida Grande, sans-serif;
+	color: #eeeef7;
+	background-image: url(pics/gradient.png);
+	background-repeat: repeat-x;
+	background-attachment:fixed;
+	background-position: 50px 400px;
+	background-color: #000;
+	text-align: center;
+}
+
+#container {
+	margin: 0 auto;
+	width: 800px;
+	text-align: left;
+}
+
+a {
+	color: #000066;
+}
+
+a:hover {
+	color: #fff;
+}
+
+a img {
+	border: none;
+}
+
+
+/*-------------------------------------------
+HEADER
+---------------------------------------------*/
+#header h1 {
+	font: 600% "Lucida Grande", "Trebuchet MS", Verdana, sans-serif;
+	text-align: center;
+}
+
+#header {
+	height: 250px;
+	padding-top: 20px;
+}
+
+#logo {
+	height: 250px;
+	width: 500px;
+	float: left;
+}
+
+#logo img#bird {
+	height: 200px;
+
+}
+
+#logo img#sa {
+	height: 200px;
+	margin-left: 90px;
+}
+
+#quote {
+	width: 200px;
+	float: left;
+	margin: 60px 50px;
+}
+
+#quote p {
+	font: 125% "Lucida Grande", "Trebuchet MS", Verdana, sans-serif;
+	font-style: italic;
+	text-align: center;
+}
+
+#quote span#author {
+	font-size: 150%;
+	font-style: normal;
+	float: right;
+}
+
+/*-------------------------------------------
+WRAPPER
+---------------------------------------------*/
+
+
+/*-------------------------------------------
+NAV
+---------------------------------------------*/
+#nav {
+	height: 50px;
+	text-decoration: none;
+	padding: 20px 0px 5px 0px;
+	margin: 0 auto;
+}
+
+#nav ul li {
+	list-style: none;
+	display: inline;
+	margin: 0 30px;
+	padding-bottom: 10px;
+	font-size: 15px;
+}
+
+#nav ul li.current {
+	font-style: italic;
+	font-weight: bold;
+	border-bottom: 2px solid #888;
+}
+
+#nav ul li a {
+	text-decoration: none;
+	color: #fff;
+}
+
+#nav ul li a:hover {
+	color: #666;
+}
+
+
+/*-------------------------------------------
+SIDEBAR
+---------------------------------------------*/
+#sidebar {
+		visibility: hidden;
+}
+
+
+/*-------------------------------------------
+MAIN
+---------------------------------------------*/
+#main {
+	color:  #000066;
+	padding: 0px 0 0px 11px;
+	margin: 10px;
+	background: url(pics/box-l.png) top left no-repeat;
+	background-color: white;
+}
+
+#main h1 {
+	background: url(pics/box-r.png) top right no-repeat;
+	margin: 0px;
+	padding: 8px 0 0 8px;
+}
+
+#main p, table {
+	margin: 0 0 0 -11px;
+	padding: 0 18px 0.5em 20px;
+	border-width: 0 1px;
+	background: #fff;
+}
+
+#main table {
+	margin: 20px;
+	padding: 10px;
+}
+
+#main div.more {
+	margin: 0 0 0 -11px;
+	padding-left: 15px;
+	background: url(pics/box-l.png) bottom left no-repeat;
+}
+
+#main p.more {
+	display: block;
+	text-align: right;
+	padding: 0 10px 10px 0;
+	background: url(pics/box-r.png) bottom right no-repeat;
+	color: white;
+}
+
+#main table {
+	background: white;
+	color: #111;
+	border: 5px solid gray;
+}
+
+#main th {
+	border-bottom: 1px dotted #222;
+}
+#main td {
+	border-right: 1px dotted #222;
+	padding: 10px;
+}
+
+
+/*-------------------------------------------
+PRODUCTION
+---------------------------------------------*/
+
+#trailer {
+	height: 450px;
+	width: 759px;
+	background-color: white;
+}
+
+#movie {
+	float: left;
+	padding-bottom: 10px;
+	
+}
+
+#movie_description {
+	width: 300px;
+	display: block;
+	float: left;
+	padding: 0px 10px 5px 20px;
+}
+
+.thumbnails {
+	overflow: hidden;
+	position: relative;
+	height: 90px;
+	width: 600px;
+	padding: 10px;
+	margin: auto;
+	clear: both;
+	
+}
+
+.thumbnails ul {
+	position: absolute;
+	list-style: none;
+	overflow: none;
+	white-space: nowrap;
+	padding: 0;
+	margin: 0;
+} 
+
+.thumbnails ul li {
+	display: inline;
+}
+
+.slider {
+	background: transparent url(pics/slider.png) no-repeat;
+	width: 542px;
+    height: 17px;
+    margin-top: 70px;
+    margin-left: 5px;
+    padding: 1px;
+    position: relative;	
+}
+
+.handle {
+	position: absolute;
+	cursor: move;
+	height: 17px;
+	width: 181px;
+	top: 0;
+	background: transparent url(pics/handle.png) no-repeat;
+	z-index: 100;
+}
+
+
+.slider span {
+    color: #bbb;
+    font-size: 80%;
+    cursor: pointer;
+    position: absolute;
+    z-index: 110;
+    top: 3px;
+}
+
+.slider .slider-lbl1 {
+    left: 50px;
+}
+
+.slider .slider-lbl2 {
+    left: 250px;
+}
+
+.slider .slider-lbl3 {
+    left: 400px;
+}
+
+.thumbnail {
+	padding: 0 10px;
+}
+/*-------------------------------------------
+ABOUT_US
+---------------------------------------------*/
+#pics {
+
+}
+
+#pics a {
+	font: 75% "Lucida Grande", "Trebuchet MS", Verdana, sans-serif;
+	float: right;
+	padding-right: 20px;
+}
+
+#pics a:hover {
+	color: #222;
+}
+
+#js-glenn p, #js-glenn ul, #js-mara p, #js-mara ul, #js-andrew p, #js-andrew ul, #js-eric p, #js-eric ul {
+	font: 75% "Lucida Grande", "Trebuchet MS", Verdana, sans-serif;
+}
+
+#js-mara {
+	width: 500px;
+	height: 150px;
+	border: 1px solid #999;
+	overflow: hidden;
+}
+#js {
+	
+}
+
+
+
+#glenn, #mara,#andrew,#eric {
+	width: 700px;
+	padding: 20px;
+}
+
+.inmate {
+
+}
+
+.headshot {
+	border: 1px dotted gray;
+	padding: 5px;
+	background-color: white;
+	float: right;
+	margin: 2px 10px;
+}
+
+.headshot img {
+	height: 150px;
+	width: 150px;
+}
+
+.separator {
+	border-bottom: 2px solid gray;
+	width: 30%;
+	margin-left: 200px;
+}
+
+.list-first {
+	float: left;
+	padding-right: 60px;
+	border: 1px solid red;
+}
+
+.list-second {
+	border: 1px solid green;
+}
+
+
+/*-------------------------------------------
+footer
+---------------------------------------------*/
+
+#footer {
+		height: 50px;
+		clear: both;
+		margin-top: 40px;
+}
+
+#footer a {
+	text-decoration: none;
+}
+
+#footer p {
+	font: 50% "Lucida Grande", "Trebuchet MS", Verdana, sans-serif;
+	color: #888;
+	text-align: center;
+}
